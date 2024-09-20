@@ -10,7 +10,7 @@
 #define G 1
 #define B 2
 
-#define SRC_IMG_PATH ROOT_DIR "/assets/img_sm_1.bin"
+#define SRC_IMG_PATH ROOT_DIR "/assets/img_sm_7.bin"
 
 //////////////////////////////////////////
 // 	     Pt 0 Debugging-functions       //

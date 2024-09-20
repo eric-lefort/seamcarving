@@ -39,16 +39,22 @@ def read_image(filename):
 
 
 #Write a png image to bin
-image = Image.open("img_sm_1.jpg")
-write_image(image, "img_sm_1.bin")
-image = Image.open("img_sm_2.jpg")
-write_image(image, "img_sm_2.bin")
-image = Image.open("img_sm_3.jpg")
-write_image(image, "img_sm_3.bin")
-image = Image.open("img_sm_4.jpg")
-write_image(image, "img_sm_4.bin")
-print("Done converting images to bin")
-exit()
+# image = Image.open("img_sm_1.jpg")
+#write_image(image, "img_sm_1.bin")
+#image = Image.open("img_sm_2.jpg")
+#write_image(image, "img_sm_2.bin")
+#image = Image.open("img_sm_3.jpg")
+#write_image(image, "img_sm_3.bin")
+#image = Image.open("img_sm_4.jpg")
+#write_image(image, "img_sm_4.bin")
+# image = Image.open("img_sm_6.jpg")
+# write_image(image, "img_sm_6.bin")
+# image = Image.open("img_sm_7.jpg")
+# write_image(image, "img_sm_7.bin")
+# image = Image.open("img_sm_8.jpg")
+# write_image(image, "img_sm_8.bin")
+# print("Done converting images to bin")
+# exit()
 
 # #Read image from a bin file, save it to png
 # im2 = read_image("a.bin")

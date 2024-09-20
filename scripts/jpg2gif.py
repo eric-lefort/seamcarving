@@ -35,7 +35,7 @@ def process_images(image_paths, output_gif_path, image_size, background_color='w
         frames.append(frame)
     
     # Save as GIF
-    frames[0].save(output_gif_path, save_all=True, append_images=frames[0:], duration=50, loop=0, optimize=True, dither=Image.NONE if not dither else Image.FLOYDSTEINBERG)
+    frames[0].save(output_gif_path, save_all=True, append_images=frames[0:], duration=100, loop=0, optimize=True, dither=Image.NONE if not dither else Image.FLOYDSTEINBERG)
 
 if __name__ == "__main__":
     # Example usage
